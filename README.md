@@ -10,9 +10,6 @@ An Arduino-based robot that autonomously follows a moving object using an HC-SR0
 
 ## 📸 Demo
 
-> _Add photos/videos of the robot in action here_
-
-
   ![Demo](assets/Image1.jpeg)
   ![Demo](assets/Image2.jpeg)
  
@@ -112,8 +109,9 @@ If your motors are inverted, adjust:
 object_follower/
 ├── object_follower.ino   # Main Arduino sketch
 ├── assets/               # Photos, videos, circuit diagrams
-│   ├── demo.jpg
-│   └── circuit.png
+│   ├── Image1.jpeg
+│   └── Image2.jpeg
+│   └── Video1.mp4
 └── README.md
 ```
 
