@@ -12,6 +12,8 @@ An Arduino-based robot that autonomously follows a moving object using an HC-SR0
 
   ![Demo](assets/Image1.jpeg)
   ![Demo](assets/Image2.jpeg)
+
+Demo video: [`assets/Video1.mp4`](assets/Video1.mp4)
  
 
 
@@ -78,7 +80,7 @@ Based on detections (within 20 cm), the robot decides to move forward, turn, or 
 ### Upload the Code
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Ashritha-Abbabathula/object_follower.git
+   git clone https://github.com/Ashritha-Abbabathula/object-follower.git
    ```
 2. Open `object_follower.ino` in the Arduino IDE
 3. Select **Board**: Arduino Uno and the correct **Port**
@@ -106,11 +108,11 @@ If your motors are inverted, adjust:
 ## 📁 File Structure
 
 ```
-object_follower/
+object-follower/
 ├── object_follower.ino   # Main Arduino sketch
-├── assets/               # Photos, videos, circuit diagrams
+├── assets/               # Photos and demo video
 │   ├── Image1.jpeg
-│   └── Image2.jpeg
+│   ├── Image2.jpeg
 │   └── Video1.mp4
 └── README.md
 ```
